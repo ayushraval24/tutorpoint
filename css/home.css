@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-image: url("../images/desk2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-link:hover{
+    color: #d9534f !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: white;
+  } 
+
+
+
+.jumbo{
+    background: transparent;
+}
+
+.home_container{
+    width:60%;
+}
+
+.home_library{
+    height:100vh;
+}
+
+.card{
+    border: none;
+    outline: none;
+}
+
+.card:hover{
+    background-color: rgb(179, 40, 81);
+    color: white;
+}
+
+.sub_container{
+    background-color: yellowgreen;
+    display: flex;
+    font-size: 18px;
+}
+
+
+.footer_links{
+    display: flex;
+    margin-left: auto;
+}
+
+.about_link,.extra_link,.link{
+    color: black;
+}
+
+.about_link:hover,.extra_link:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.link_title{
+    font-weight: 700;
+}
+

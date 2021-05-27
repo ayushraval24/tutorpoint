@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    background-image: url("../images/desk3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: white;
+  } 
+
+  .search{
+    margin-top: -125px;
+}
+
+.jumbo{
+    background: transparent;
+}
+
+.nav-link:hover{
+    color: #d9534f !important;
+}
+
+.form_input{
+    background-color: rgb(213, 221, 230);
+}
+
+
+.sub_container{
+    background-color: yellowgreen;
+    display: flex;
+    font-size: 18px;
+}
+
+.footer_links{
+    display: flex;
+    margin-left: auto;
+}
+
+.about_link,.extra_link,.link{
+    color: black;
+}
+
+.about_link:hover,.extra_link:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.link_title{
+    font-weight: 700;
+}
